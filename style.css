@@ -34,9 +34,33 @@
   grid-row: 1 / 3;
 }
 
+.sidebar-row p {
+  justify-self: start;
+}
+
 .sidebar-row {
   display: grid;
   grid-template-columns: 1fr 3fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.dashboard-logo {
+  display: grid;
+  max-width: 36px;
+  align-items: center;
+  justify-items: center;
+}
+
+.dashboard-icon {
+  display: grid;
+  max-width: 24px;
+  align-items: center;
+  justify-items: center;
+}
+
+.dashboard-link {
+  justify-self: start;
 }
 
 .content {
