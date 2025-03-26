@@ -1,5 +1,6 @@
 :root {
   --theme-color: rgb(2, 161, 234);
+  --box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -16,7 +17,8 @@ body {
   grid-column: 2;
   padding: 16px 16px 16px 48px;
   gap: 12px;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  position: relative;
+  box-shadow: var(--box-shadow);
 }
 
 .top-header {
@@ -43,7 +45,7 @@ body {
   min-width: 50px;
   justify-self: stretch;
   border-radius: 10px;
-  background-color: lightgrey;
+  background-color: rgb(240, 240, 240);
   border: none;
   height: 20px;
   margin-right: 24px;
@@ -188,7 +190,7 @@ body {
   grid-column: 2;
   grid-row: 2;
   padding: 16px 16px 16px 24px;
-  background-color: lightgray;
+  background-color: rgb(240, 240, 240);
   align-items: start;
 }
 
