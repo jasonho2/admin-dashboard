@@ -102,6 +102,28 @@ body {
   justify-self: auto;
 }
 
+.right-bottom-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+}
+
+.header-button {
+  width: 70px;
+  height: 16px;
+  border-radius: 50px;
+  background-color: rgb(47, 189, 255);
+  border: none;
+  padding: 10px; /* Padding */
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+
 .sidebar {
   display: grid;
   grid-column: 1;
