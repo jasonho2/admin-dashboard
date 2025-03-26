@@ -255,6 +255,11 @@ body {
   color: rgb(38, 38, 38);
   font-weight: normal;
   font-size: 12px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
 }
 
 .announcement .announcement-title {
@@ -262,6 +267,16 @@ body {
   font-weight: 600;
   font-size: 14px;
   text-align: left;
+}
+
+.announcement {
+  border-bottom: 1px solid #ddd;
+  margin: 0px 20px 0px 20px;
+  padding: 10px;
+}
+
+.announcement:last-child {
+  border-bottom: none;
 }
 
 .trending {
