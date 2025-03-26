@@ -1,6 +1,6 @@
 :root {
   --theme-color: rgb(2, 161, 234);
-  --box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.35);
 }
 
 body {
@@ -220,6 +220,9 @@ body {
   text-align: left;
   height: 200px;
   padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: var(--box-shadow);
 }
 
 .card p {
@@ -257,6 +260,9 @@ body {
 .announcements-container {
   display: grid;
   background-color: #FFFFFF;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: var(--box-shadow);
 }
 
 .announcement p {
@@ -296,6 +302,9 @@ body {
 .trending-container {
   display: grid;
   background-color: #FFFFFF;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: var(--box-shadow);
 }
 
 .trending-row {
