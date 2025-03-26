@@ -299,9 +299,20 @@ body {
 .trending-row {
   display: grid;
   grid-template-columns: 1fr 3fr;
+  margin: 0px 20px 0px 20px;
+  padding: 10px;
 }
 
 .user-trending {
   display: grid;
   grid-template-rows: 1fr 1fr;
+}
+
+.trending-username {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.trending-project {
+  font-size: 12px;
 }
