@@ -267,6 +267,15 @@ body {
   max-width: 24px;
 }
 
+.overlay-icon {
+  position: absolute; /* Stack on top of the SVG */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensures it matches the parent dimensions */
+  height: 100%;
+  pointer-events: none; /* Allows clicking on the underlying link */
+}
+
 .news {
   display: grid;
   grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
